@@ -71,3 +71,5 @@ end
 gem "stripe"
 gem "pay"
 gem "devise"
+
+gem "tailwindcss-rails", "~> 2.0"
