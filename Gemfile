@@ -72,4 +72,6 @@ gem "stripe"
 gem "pay"
 gem "devise"
 
-gem "tailwindcss-rails", "~> 2.0"
+gem "tailwindcss-rails"
+
+gem "sidekiq"

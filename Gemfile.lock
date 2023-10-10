@@ -150,6 +150,8 @@ GEM
     net-smtp (0.4.0)
       net-protocol
     nio4r (2.5.9)
+    nokogiri (1.15.4)
+      racc (~> 1.4)
     nokogiri (1.15.4-x86_64-linux)
       racc (~> 1.4)
     orm_adapter (0.5.0)
@@ -219,6 +221,11 @@ GEM
       rexml (~> 3.2, >= 3.2.5)
       rubyzip (>= 1.2.2, < 3.0)
       websocket (~> 1.0)
+    sidekiq (7.1.6)
+      concurrent-ruby (< 2)
+      connection_pool (>= 2.3.0)
+      rack (>= 2.2.4)
+      redis-client (>= 0.14.0)
     sprockets (4.2.1)
       concurrent-ruby (~> 1.0)
       rack (>= 2.2.4, < 4)
@@ -230,6 +237,8 @@ GEM
       railties (>= 6.0.0)
     stringio (3.0.8)
     stripe (9.4.0)
+    tailwindcss-rails (2.0.30)
+      railties (>= 6.0.0)
     tailwindcss-rails (2.0.30-x86_64-linux)
       railties (>= 6.0.0)
     thor (1.2.2)
@@ -257,6 +266,7 @@ GEM
     zeitwerk (2.6.12)
 
 PLATFORMS
+  unknown
   x86_64-linux
 
 DEPENDENCIES
@@ -273,10 +283,11 @@ DEPENDENCIES
   rails (~> 7.1.0)
   redis (>= 4.0.1)
   selenium-webdriver
+  sidekiq
   sprockets-rails
   stimulus-rails
   stripe
-  tailwindcss-rails (~> 2.0)
+  tailwindcss-rails
   turbo-rails
   tzinfo-data
   web-console
