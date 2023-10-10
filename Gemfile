@@ -68,3 +68,6 @@ group :test do
 end
 gem "stripe"
 gem "pay"
+gem "devise"
+
+gem "letter_opener", "~> 1.8"
