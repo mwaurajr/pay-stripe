@@ -141,6 +141,8 @@ GEM
     nio4r (2.5.9)
     nokogiri (1.15.4-x86_64-linux)
       racc (~> 1.4)
+    pay (6.8.1)
+      rails (>= 6.0.0)
     pg (1.5.4)
     psych (5.1.0)
       stringio
@@ -212,6 +214,7 @@ GEM
     stimulus-rails (1.2.2)
       railties (>= 6.0.0)
     stringio (3.0.8)
+    stripe (9.4.0)
     thor (1.2.2)
     timeout (0.4.0)
     turbo-rails (1.4.0)
@@ -243,6 +246,7 @@ DEPENDENCIES
   debug
   importmap-rails
   jbuilder
+  pay
   pg (~> 1.1)
   puma (>= 5.0)
   rails (~> 7.1.0)
@@ -250,6 +254,7 @@ DEPENDENCIES
   selenium-webdriver
   sprockets-rails
   stimulus-rails
+  stripe
   turbo-rails
   tzinfo-data
   web-console
